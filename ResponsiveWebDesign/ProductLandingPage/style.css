@@ -1,0 +1,96 @@
+body{
+  background-color: #F2E6D8;
+  font-family: sans-serif;
+}
+.grid{
+  display: flex;
+}
+header{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f2e6d8;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+@media (max-width: 430px) {
+  #header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#page-wrapper{
+  position: relative;
+}
+
+li{
+  list-style: none;
+}
+
+#choose-us{
+  margin-top: 30px;
+}
+
+#choose-us .desc{
+  flex-direction: column;
+  justify-content: center;
+}
+
+#how-we-work{
+  margin-top: 35px;
+  justify-content: center;
+  display: flex;
+}
+
+#how-we-work > iframe{
+  max-width: 560px;
+  width: 100%;
+}
+
+.btn{
+  cursor: pointer;
+  background: transparent;
+  border: 1px black solid;
+}
+
+#discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 75px;
+}
+
+#pricing{
+  margin-top: 20px;
+  display: flex;
+}
+.service {
+  display:flex;
+  flex-direction: column;
+  border: 1px black solid;
+  background-color: white;
+}
+
+.service > .level {
+  background-color: #ddd;
+  padding: 15px;
+  color: black;
+  text-align: center;
+}
+
+.service > h2{
+  text-align: center;
+}
+.service > ol{
+  text-align: center;
+  padding: 10px;
+}
+.service > button{
+  background-color: pink;
+  margin: 20px;
+}
+

@@ -1,7 +1,14 @@
 # JavaScript Algorithms and Data Structures
 
-While HTML and CSS control the content and styling of a page, JavaScript is used to make it interactive. In the JavaScript Algorithm and Data Structures Certification, you'll learn the fundamentals of JavaScript including variables, arrays, objects, loops, and functions.
+All projects presented here were created by Lizbeth García Lebrón to earn the JavaScript Algorithms & Data Structures certification. 
 
-Once you have the fundamentals down, you'll apply that knowledge by creating algorithms to manipulate strings, factorialize numbers, and even calculate the orbit of the International Space Station.
-
-Along the way, you'll also learn two important programming styles or paradigms: Object Oriented Programming (OOP) and Functional Programming (FP).
+Objectives
+1. Basic JavaScript
+2. ES6
+3. Regular Exoressions
+4. Debugging
+5. Basic Data Structures
+6. Basic Algorithm Scripting
+7. Object Oriented Programming
+8. Functional programming
+9. Intermediate Algorithm Scripting

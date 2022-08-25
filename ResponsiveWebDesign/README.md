@@ -1,4 +1,7 @@
 # Responsive Web Design
+All project presented here were created by Lizbeth García Lebrón
+
+Timeline Dec 31,2021 until Jan 11, 2022
 
 Objectives
 1. Basic HTML and HTML5

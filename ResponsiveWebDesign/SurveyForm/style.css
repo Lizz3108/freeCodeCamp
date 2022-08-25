@@ -1,0 +1,64 @@
+@import url('https://fonts.google.com/specimen/Lora?query=lora');
+
+body{
+  font-family: Lora, Times New Roman;
+  text-align: center; 
+  background-color: #F2E6D8;
+  color: #1E1D40;
+  font-size: 20px;
+}
+p{
+  color: #1E1D40;
+  text-align: center;
+}
+#title{
+  color: #D90D32;
+  font-size: 45px;
+  text-align: center;
+}
+form{
+  background-color: white;
+  margin: 25px auto;
+  box-shadow: 2px 5px 10px;
+  padding: 15px 15px;
+  max-width: 500px;
+}
+.form-control{
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-control label{
+  display: block;
+  margin-bottom: 15px;
+}
+.form-control input,.form-control select, .form-control-textarea{
+ border: 1px solid black;
+ border-radius: 2px;
+ font-family: Lora;
+ padding: 10px;
+ display: block;
+ width: 95%;
+}
+  .form-control input[type="radio"],
+        .form-control input[type="checkbox"] {
+            display: inline-block;
+            width: auto;
+}
+button{
+  background-color: #4ab0d9;
+  border: 1px solid black;
+  border-radius: 2px;
+  font-family: Lora;
+  font-size: 21px;
+  width: 100%;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.input-textarea{
+  resize: vertical;
+  width: 100%;
+  min-height: 150px;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div class="container">
+  <header class="header">
+  <h1 id="title">Garlebs Service Survey Form</h1>
+  </header>
+    <p id="description">Thank you for taking the time to help us improve our service</p>
+  <form id="survey-form">
+    <div class="form-control">
+      <!-- This creates the label and the input area AKA the space to enter the name -->
+      <label for="name" id="name-label">
+        Name
+      </label>
+      <input type="text"
+             id="name"
+             placeholder="Enter your name" 
+             name="name"
+             required
+             />
+    </div>
+    <!--  This creates the email label and the input area to insert the email-->
+    <div class="form-control">
+      <label for="email" id="email-label">
+        Email
+      </label>
+      <input type="email"
+             id="email"
+             placeholder="Enter your email"
+             name="email"
+             required
+             />
+    </div>
+    <!--  This creates the age label and the input area to insert the age-->
+    <div class="form-control">
+      <label for="age" id="number-label">
+        Age (optional)
+      </label>
+      <input type="number"
+             id="number"
+             placeholder="Age"
+             name="age"
+             min="18"
+             max="99"
+             required
+             />
+    </div>
+    <!--  This creates the satisfaction option and the option to choose from-->
+    <div class="form-control">
+      <label for="satisfaction"> What option best describes the satisfaction of the services provided?
+      </label>
+      <!-- It create a pull down list -->
+      <select id="dropdown" name="satisfaction" id="satisfaction-option">
+        <option disabled selected value>Select a satisfaction</option>
+        <option value="bad">Bad</option>
+        <option value="great">Great</option>
+        <option value="improvement">Need Improvement</option>
+      </select>
+        </div> 
+         <!-- This creates the radio buttom and label for the type of service provided -->
+    <div class="form-control">
+      <label>
+        Would you recommend Garleb Service to a friend or family?
+      </label>
+      <label for="recommensation-1">
+        <input type="radio" 
+               id="yes"
+               name="recommendation"
+               value="yes" 
+               checked/>Yes
+      </label>
+      <label for="recommensation-2">
+      <input type="radio"
+             id="no"
+             name="recommendation"
+             value="no"/>No</label>
+      <label for="recommendation-3">
+      <input type="radio" 
+             id="maybe" 
+             name="recommendation"
+             value="maybe" />Maybe
+      </label>
+</div>
+    <div class="form-control">
+      <label for="checkbox">
+        What was the service provided? (Choose all that apply)
+      </label>
+      <label for="plumbing">
+        <input type="checkbox"
+               id="plumbing"
+               name="service"
+               class="input-checkbox"
+               value="plumbing"
+               />Plumbing</label>
+      <label for="gas">
+      <input type="checkbox"
+             id="gas"
+             name="service"
+             class="input-checkbox"
+             value="gas"
+             />Gas Installation</label>
+      <label for="gasoline">
+    <input type="checkbox"
+           id="gasoline"
+           name="service"
+           class="input-checkbox"
+           value="gasoline"
+           />Gasoline Refuel</label>
+      <label for="house">
+        <input type="checkbox"
+               id="house"
+               name="service"
+               class="input-checkbox"
+               value="house"
+               />House work</label>
+    </div>
+    
+<!-- Creates the area for the suggestions -->
+<div class="form-control">
+  <label for="suggestion">
+    Any comments or suggestions leave them below.
+  </label>
+  <textarea class="input-textarea"
+            name="suggestion" 
+            id="suggestion"
+            placeholder="Enter Suggestions here"
+            ></textarea>
+</div>
+<div class="form-group">
+<button type="submit" id="submit" class="submit-button">
+  Submit
+</button>
+  </div>
+</form>
+  </div>
+</html>

@@ -1,5 +1,5 @@
 # Responsive Web Design
-All project presented here were created by Lizbeth García Lebrón
+All project presented here were created by Lizbeth García Lebrón to earn the Responsive Web Design Certification with freeCodeCamp.
 
 Timeline Dec 31,2021 until Jan 11, 2022
 
